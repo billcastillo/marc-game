@@ -1,0 +1,56 @@
+[
+	{
+		"id": "name",
+		"class": "",
+		"name": "name",
+		"type": "input",
+		"inputType": "text",
+		"label": "Name of game*",
+		"placeholder": "Name of game",
+		"regex": "*",
+		"required": true
+	},
+	{
+		"id": "subtitle",
+		"class": "",
+		"name": "subtitle",
+		"type": "input",
+		"inputType": "text",
+		"label": "Subtitle",
+		"required": false
+	},
+	{
+		"id": "description",
+		"class": "",
+		"name": "description",
+		"type": "textarea",
+		"label": "Game description",
+		"placeholder": "280 characters max",
+		"max": 280
+	},
+	{
+		"id": "size",
+		"class": "",
+		"name": "size",
+		"type": "input",
+		"inputType": "number",
+		"placeholder": "File size",
+		"label": "File size*",
+		"required": true
+	},
+	{
+		"id": "price",
+		"class": "",
+		"name": "price",
+		"type": "input",
+		"inputType": "number",
+		"label": "Price of the file"
+	},
+	{
+		"id": "gameFormSubmit",
+		"type": "button",
+		"inputType": "submit",
+		"label": "Submit",
+		"placeholder": "Game's full description"
+	}
+]

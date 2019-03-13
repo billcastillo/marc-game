@@ -8,7 +8,7 @@ const Header = (props) => {
 		<Container>
 			<header className="header">
 				<div className="header-logo">
-					<Link href="./">
+					<Link href="/">
 						<a><img src="/static/mgh.svg" alt="mg logo" /></a>
 					</Link>
 				</div>
